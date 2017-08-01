@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form th:method="post" th:action="@{/create}">
+    <!--// musi miec metode i akcje-->
+    <input type="text" name="firstName" value="Imię">
+    <input type="text" name="lastName" value="Nazwisko">
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
